@@ -8,6 +8,7 @@ node_modules/
 .next/
 
 # Python
+__pycache__/
 .venv/
 *.egg-info/
 logs/
