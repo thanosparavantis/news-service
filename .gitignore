@@ -1,0 +1,15 @@
+# Generic
+desktop.ini
+.idea/
+.env
+
+# NextJS
+node_modules/
+.next/
+
+# Python
+.venv/
+*.egg-info/
+logs/
+cache/
+firebase.json

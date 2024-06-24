@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nscraper"
+version = "0.0.1"
+authors = [
+    { name = "Thanos Paravantis", email = "thanos@paravantis.org" }
+]
+description = "A sample news scraper with classification and summarization capabilities"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/thanosparavantis/news-service"
+Issues = "https://github.com/thanosparavantis/news-service/issues"

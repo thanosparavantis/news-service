@@ -1,0 +1,15 @@
+services:
+  nscraper:
+    image: nscraper
+    build: ./nscraper
+    hostname: nscraper
+    restart: always
+    env_file: "nscraper/.env"
+  nclient:
+    image: nclient
+    build: ./nclient
+    hostname: nclient
+    restart: always
+    ports:
+      - 3000:3000
+    env_file: "nclient/.env"

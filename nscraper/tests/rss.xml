@@ -1,0 +1,29 @@
+<rss version="2.0">
+    <channel xml:base="https://www.example.com/rss">
+        <title>Unit Test</title>
+        <description>Unit Test RSS Feed Description</description>
+        <lastBuildDate>Sat, 21 Oct 2023 15:00:51 +0300</lastBuildDate>
+        <generator>Unit Test</generator>
+        <link>https://www.example.com/rss</link>
+        <item>
+            <guid isPermaLink="true">https://www.example.com/dummy-article1</guid>
+            <link>https://www.example.com/dummy-article1</link>
+            <title>Article title 1</title>
+            <description>Article description 1</description>
+            <pubDate>Sat, 21 Oct 2023 00:00:00 +0300</pubDate>
+        </item>
+        <item>
+            <guid isPermaLink="true">https://www.example.com/dummy-article2</guid>
+            <link>https://www.example.com/dummy-article2</link>
+            <title>Article title 2</title>
+            <pubDate>Sat, 21 Oct 2023 00:10:00 +0300</pubDate>
+        </item>
+        <item>
+            <guid isPermaLink="true">https://www.example.com/dummy-article3</guid>
+            <link>https://www.example.com/dummy-article3</link>
+            <title>Article title 3</title>
+            <description/>
+            <pubDate>Sat, 21 Oct 2023 00:10:00 +0300</pubDate>
+        </item>
+    </channel>
+</rss>
