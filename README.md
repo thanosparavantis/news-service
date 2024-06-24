@@ -11,8 +11,9 @@ Additionally, it uses a Leaflet map to display emoji previews that capture the m
 These emojis provide a quick visual representation of the news sentiment within each region.
 
 ## General notes
+You can view a live demo at https://news.paravantis.org/.
 - To run this app, set up a Firebase project with Firestore
-- Use Docker to spin up the app with `docker compose up -d`
+- Use Docker to spin up a containerized version with `docker compose up -d`
 
 ## Scraper setup
 To run the Python scraper backend:
