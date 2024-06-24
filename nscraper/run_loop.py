@@ -33,7 +33,7 @@ def run_schedule():
 
 
 def main() -> None:
-    logger.info("Program execution started")
+    logger.info('Program execution started')
     run_schedule()
 
 
